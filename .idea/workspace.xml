@@ -5,36 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="931dcb1d-cb11-495e-94fd-f726a23aa8fc" name="Changes" comment="me">
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/serializers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/v1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/artists/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/blog/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/gallery/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/notifications/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/orders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/payments/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/products/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/recommendations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/development/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/production/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements/base.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements/development.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements/production.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/logging/handlers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/management/commands/backup_database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/management/commands/rebuild_search_index.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/cache/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/cache/decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/filters/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/filters/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/filters/custom_filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/filters/custom_filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/logging/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/logging/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/logging/formatters.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/logging/formatters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/management/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/management/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/management/commands/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/management/commands/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/management/commands/cleanup_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/management/commands/cleanup_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/management/commands/generate_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/management/commands/generate_report.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/services/payment_gateway.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/services/payment_gateway.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/storage/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/storage/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/storage/custom_storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/storage/custom_storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templatetags/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/templatetags/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templatetags/core_tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/templatetags/core_tags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/utils/date_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/utils/date_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/utils/file_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/utils/file_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/utils/geo_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/utils/geo_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/utils/image_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/utils/image_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/utils/security_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/utils/security_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/utils/string_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/utils/string_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/validators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/validators/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/validators/file_validators.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/validators/file_validators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/validators/image_validators.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/validators/image_validators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/validators/phone_validators.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/validators/phone_validators.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +111,8 @@
       <workItem from="1744943849561" duration="249000" />
       <workItem from="1744954966697" duration="2162000" />
       <workItem from="1744966069362" duration="214000" />
-      <workItem from="1745039603044" duration="3309000" />
+      <workItem from="1745039603044" duration="3435000" />
+      <workItem from="1745048982726" duration="604000" />
     </task>
     <task id="LOCAL-00001" summary="me">
       <option name="closed" value="true" />
@@ -145,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745042340109</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="me">
+      <option name="closed" value="true" />
+      <created>1745042951163</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745042951163</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
