@@ -5,156 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="931dcb1d-cb11-495e-94fd-f726a23aa8fc" name="Changes" comment="me">
-      <change afterPath="$PROJECT_DIR$/core/middlewares/language.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/middlewares/throttling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/middlewares/trace.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/mixins/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/mixins/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/mixins/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/mixins/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/pagination/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/pagination/custom_pagination.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/permissions/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/permissions/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/permissions/is_artist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/permissions/is_verified.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/permissions/order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/permissions/ownership.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/serializers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/serializers/base_serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/services/email_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/services/payment_gateway.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/services/sms_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/services/storage_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/signals/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/signals/handlers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/storage/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/storage/custom_storage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/tasks/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/tasks/periodic_tasks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/templatetags/core_tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/utils/date_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/utils/file_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/utils/geo_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/utils/image_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/utils/security_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/utils/string_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/validators/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/validators/file_validators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/validators/image_validators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/validators/phone_validators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artists/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings/development.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artists/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artists/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings/production.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artists/api/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artists/api/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artists/api/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artists/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artists/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artists/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artists/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artists/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/behaviors/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/behaviors/publishable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/celery.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/celery.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/behaviors/translatable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/cache/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/cache/decorators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/api/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/api/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/api/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/constants/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/conf.d/default.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/constants/choices.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/constants/error_codes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/constants/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/exceptions/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/api/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/api/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/api/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/exceptions/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payments/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/exceptions/payment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payments/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payments/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payments/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/filters/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payments/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payments/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payments/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/filters/custom_filters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/logging/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/api/filters.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/api/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/api/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/api/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/logging/formatters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/management/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendations/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendations/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendations/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/management/commands/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendations/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendations/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendations/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/management/commands/cleanup_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/management/commands/generate_report.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/api/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/api/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/api/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/middlewares/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +82,7 @@
       <workItem from="1744943849561" duration="249000" />
       <workItem from="1744954966697" duration="2162000" />
       <workItem from="1744966069362" duration="214000" />
-      <workItem from="1745039603044" duration="2214000" />
+      <workItem from="1745039603044" duration="2684000" />
     </task>
     <task id="LOCAL-00001" summary="me">
       <option name="closed" value="true" />
@@ -241,7 +92,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744955922712</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="me">
+      <option name="closed" value="true" />
+      <created>1745042083960</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745042083960</updated>
+    </task>
+    <task id="LOCAL-00003" summary="me">
+      <option name="closed" value="true" />
+      <created>1745042099651</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745042099651</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
